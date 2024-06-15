@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 300px auto;
+    background-color: yellow;
+    box-shadow: 100px 100px 0px orange, -100px 100px 0px red, 100px -100px 0px blue, -100px -100px rebeccapurple;
+    transition: all 1s ease-in;
+}
+
+.box:hover {
+    border-radius: 50px;
+    box-shadow: -100px 100px 0px orange, -100px -100px red, 100px 100px 0px blue, 100px -100px 0px rebeccapurple;
+}
